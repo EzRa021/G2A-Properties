@@ -110,7 +110,7 @@ const Properties = () => {
 
                 </div>
                 <div className="grid lg:flex justify-center items-center flex-wrap grid-cols-2 sm:grid-cols-2 gap-2  md:gap-10 content-center justify-items-center ">
-                    <div className=" mt-10 sm:h-[540px] h-[350px] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
+                    <div className=" mt-10 sm:h-[540px] h-[auto] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
                         <div>
                             <Swiper
                                 spaceBetween={30}
@@ -136,18 +136,18 @@ const Properties = () => {
                         </div>
                         <div className=" sm:px-5 lg:px-5 px-2 mt-[-1rem] sm:mt-0">
                             <div className="flex justify-between items-center">
-                                <h1 className="sm:text-[25px]  text-[10px] font-bold" >
+                                <h1 className="sm:text-[25px] line-clamp-1  text-[10px] font-bold" >
                                     White House Villa
                                 </h1>
                                 <Favorite className="text-[red] " sx={{ fontSize: "1rem" }} />
                             </div>
                             <div className="mt-1">
-                                <p className=" sm:text-[15px] text-[8px]">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
+                                <p className=" sm:text-[15px] text-[10px] line-clamp-3">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
                             </div>
                             <div className=" sm:flex block sm:mt-5  justify-between items-center py-2 border-b-1  border-[#bebdbd]">
-                                <p className=" sm:text-[15px] lg:text-[15px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
-                                <p className="sm:text-[14px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
-                                <p className=" sm:text-[14px] text-[8px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
+                                <p className=" sm:text-[15px] lg:text-[15px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
+                                <p className="sm:text-[14px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
+                                <p className=" sm:text-[14px] text-[10px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
 
                             </div>
                             <div className="sm:flex justify-between items-center sm:py-5 py-2  block">
@@ -162,7 +162,7 @@ const Properties = () => {
                         </div>
 
                     </div>
-                    <div className=" mt-10 sm:h-[540px] h-[350px] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
+                    <div className=" mt-10 sm:h-[540px] h-[auto] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
                         <div>
                             <Swiper
                                 spaceBetween={30}
@@ -188,18 +188,18 @@ const Properties = () => {
                         </div>
                         <div className=" sm:px-5 lg:px-5 px-2 mt-[-1rem] sm:mt-0">
                             <div className="flex justify-between items-center">
-                                <h1 className="sm:text-[25px]  text-[10px] font-bold" >
+                                <h1 className="sm:text-[25px] line-clamp-1  text-[10px] font-bold" >
                                     White House Villa
                                 </h1>
                                 <Favorite className="text-[red] " sx={{ fontSize: "1rem" }} />
                             </div>
                             <div className="mt-1">
-                                <p className=" sm:text-[15px] text-[8px]">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
+                                <p className=" sm:text-[15px] text-[10px] line-clamp-3">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
                             </div>
                             <div className=" sm:flex block sm:mt-5  justify-between items-center py-2 border-b-1  border-[#bebdbd]">
-                                <p className=" sm:text-[15px] lg:text-[15px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
-                                <p className="sm:text-[14px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
-                                <p className=" sm:text-[14px] text-[8px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
+                                <p className=" sm:text-[15px] lg:text-[15px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
+                                <p className="sm:text-[14px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
+                                <p className=" sm:text-[14px] text-[10px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
 
                             </div>
                             <div className="sm:flex justify-between items-center sm:py-5 py-2  block">
@@ -207,12 +207,14 @@ const Properties = () => {
                                     $45,000
 
                                 </h1>
+                                <NavLink to="/Propertiesdetails">
                                 <button className="bg-[black] cursor-pointer text-white  sm:px-8 px-0 mt-2  sm:py-2 py-[0.5rem] rounded-lg lg:text-[15px] sm:text-[15px] text-[10px] w-full sm:w-[180px]" type="button"> <span className="mr-2"><NorthEastOutlined sx={{ fontSize: "17px" }} /></span>View More</button>
+                                </NavLink>
                             </div>
                         </div>
 
                     </div>
-                    <div className=" mt-10 sm:h-[540px] h-[350px] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
+                    <div className=" mt-10 sm:h-[540px] h-[auto] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
                         <div>
                             <Swiper
                                 spaceBetween={30}
@@ -238,18 +240,18 @@ const Properties = () => {
                         </div>
                         <div className=" sm:px-5 lg:px-5 px-2 mt-[-1rem] sm:mt-0">
                             <div className="flex justify-between items-center">
-                                <h1 className="sm:text-[25px]  text-[10px] font-bold" >
+                                <h1 className="sm:text-[25px] line-clamp-1  text-[10px] font-bold" >
                                     White House Villa
                                 </h1>
                                 <Favorite className="text-[red] " sx={{ fontSize: "1rem" }} />
                             </div>
                             <div className="mt-1">
-                                <p className=" sm:text-[15px] text-[8px]">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
+                                <p className=" sm:text-[15px] text-[10px] line-clamp-3">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
                             </div>
                             <div className=" sm:flex block sm:mt-5  justify-between items-center py-2 border-b-1  border-[#bebdbd]">
-                                <p className=" sm:text-[15px] lg:text-[15px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
-                                <p className="sm:text-[14px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
-                                <p className=" sm:text-[14px] text-[8px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
+                                <p className=" sm:text-[15px] lg:text-[15px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
+                                <p className="sm:text-[14px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
+                                <p className=" sm:text-[14px] text-[10px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
 
                             </div>
                             <div className="sm:flex justify-between items-center sm:py-5 py-2  block">
@@ -257,12 +259,14 @@ const Properties = () => {
                                     $45,000
 
                                 </h1>
+                                <NavLink to="/Propertiesdetails">
                                 <button className="bg-[black] cursor-pointer text-white  sm:px-8 px-0 mt-2  sm:py-2 py-[0.5rem] rounded-lg lg:text-[15px] sm:text-[15px] text-[10px] w-full sm:w-[180px]" type="button"> <span className="mr-2"><NorthEastOutlined sx={{ fontSize: "17px" }} /></span>View More</button>
+                                </NavLink>
                             </div>
                         </div>
 
                     </div>
-                    <div className=" mt-10 sm:h-[540px] h-[350px] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
+                    <div className=" mt-10 sm:h-[540px] h-[auto] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
                         <div>
                             <Swiper
                                 spaceBetween={30}
@@ -288,18 +292,18 @@ const Properties = () => {
                         </div>
                         <div className=" sm:px-5 lg:px-5 px-2 mt-[-1rem] sm:mt-0">
                             <div className="flex justify-between items-center">
-                                <h1 className="sm:text-[25px]  text-[10px] font-bold" >
+                                <h1 className="sm:text-[25px] line-clamp-1  text-[10px] font-bold" >
                                     White House Villa
                                 </h1>
                                 <Favorite className="text-[red] " sx={{ fontSize: "1rem" }} />
                             </div>
                             <div className="mt-1">
-                                <p className=" sm:text-[15px] text-[8px]">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
+                                <p className=" sm:text-[15px] text-[10px] line-clamp-3">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
                             </div>
                             <div className=" sm:flex block sm:mt-5  justify-between items-center py-2 border-b-1  border-[#bebdbd]">
-                                <p className=" sm:text-[15px] lg:text-[15px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
-                                <p className="sm:text-[14px] text-[8px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
-                                <p className=" sm:text-[14px] text-[8px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
+                                <p className=" sm:text-[15px] lg:text-[15px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
+                                <p className="sm:text-[14px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
+                                <p className=" sm:text-[14px] text-[10px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
 
                             </div>
                             <div className="sm:flex justify-between items-center sm:py-5 py-2  block">
@@ -307,12 +311,65 @@ const Properties = () => {
                                     $45,000
 
                                 </h1>
+                                <NavLink to="/Propertiesdetails">
                                 <button className="bg-[black] cursor-pointer text-white  sm:px-8 px-0 mt-2  sm:py-2 py-[0.5rem] rounded-lg lg:text-[15px] sm:text-[15px] text-[10px] w-full sm:w-[180px]" type="button"> <span className="mr-2"><NorthEastOutlined sx={{ fontSize: "17px" }} /></span>View More</button>
+                                </NavLink>
                             </div>
                         </div>
 
                     </div>
+                    <div className=" mt-10 sm:h-[540px] h-[auto] card lg:w-[23.3rem] sm:w-[full] w-full  text-[#252525B2] shadow-xl">
+                        <div>
+                            <Swiper
+                                spaceBetween={30}
+                                centeredSlides={true}
+                                autoplay={{
+                                    delay: 2500,
+                                    disableOnInteraction: false,
+                                }}
+                                pagination={{
+                                    clickable: true,
+                                }}
 
+                                modules={[Autoplay]}
+                                className="W-full sm:h-[280px] lg:h-[280px] h-[150px] relative"
+                            >
+                                <SwiperSlide><img src="/image1.jpg" alt="" srcset="" /></SwiperSlide>
+                                <SwiperSlide><img src="/image2.jpg" alt="" srcset="" /></SwiperSlide>
+                                <SwiperSlide><img src="/image3.jpg" alt="" srcset="" /></SwiperSlide>
+                            </Swiper>
+                            <div className="relative sm:bottom-[260px]  bottom-[130px] z-10 left-5 ">
+                                <button className=" sm:text-[14px] text-[12px] font-semibold px-3 py-[2px] bg-white rounded-xl">FOR SALE</button>
+                            </div>
+                        </div>
+                        <div className=" sm:px-5 lg:px-5 px-2 mt-[-1rem] sm:mt-0">
+                            <div className="flex justify-between items-center">
+                                <h1 className="sm:text-[25px] line-clamp-1  text-[10px] font-bold" >
+                                    White House Villa
+                                </h1>
+                                <Favorite className="text-[red] " sx={{ fontSize: "1rem" }} />
+                            </div>
+                            <div className="mt-1">
+                                <p className=" sm:text-[15px] text-[10px] line-clamp-3">Property address, No 12, Shop U16, Joke plaza, Bodija</p>
+                            </div>
+                            <div className=" sm:flex block sm:mt-5  justify-between items-center py-2 border-b-1  border-[#bebdbd]">
+                                <p className=" sm:text-[15px] lg:text-[15px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBedDouble /></span>4 beds</p>
+                                <p className="sm:text-[14px] text-[10px]"><span className="inline-block align-middle sm:text-[1rem] text-[0.8rem] mr-2"><LuBath /></span> 2 bathrooms</p>
+                                <p className=" sm:text-[14px] text-[10px]"><span className="inline-block align-middle text-[0.8rem] sm:text-[1rem] mr-2"><PiSquareHalfBold /></span>2137 sqft</p>
+
+                            </div>
+                            <div className="sm:flex justify-between items-center sm:py-5 py-2  block">
+                                <h1 className="lg:text-[25px] sm:text-[25px] text-[15px] font-bold">
+                                    $45,000
+
+                                </h1>
+                                <NavLink to="/Propertiesdetails">
+                                <button className="bg-[black] cursor-pointer text-white  sm:px-8 px-0 mt-2  sm:py-2 py-[0.5rem] rounded-lg lg:text-[15px] sm:text-[15px] text-[10px] w-full sm:w-[180px]" type="button"> <span className="mr-2"><NorthEastOutlined sx={{ fontSize: "17px" }} /></span>View More</button>
+                                </NavLink>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
                 <div className="flex justify-end mt-10">
                     <Pagination count={100} color="primary" shape="rounded" size="large" />

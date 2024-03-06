@@ -41,10 +41,9 @@ const Nav = () => {
                     <NavLink to="/AmbassadorTeam">
                         <button type="button" className="py-3 px-5 rounded-lg bg-orange text-white">Become an Ambassador</button>
                     </NavLink>
-                    <NavLink>
-
-                    </NavLink>
+                    <NavLink to="/SignUp">
                     <button type="button" className="py-3 px-5 rounded-lg border-1 border-orange text-white"><span className="mr-2"><LockOutlined /></span>Login/SignUp</button>
+                    </NavLink>
                 </div>
             </div>
 

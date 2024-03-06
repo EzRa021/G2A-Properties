@@ -4,7 +4,7 @@ import './App.css'
 import PropertiesPage from './pages/LandingPages/PropertiesPage'
 import AboutUs from './pages/LandingPages/AboutUs'
 import ContactUsPage from "./pages/LandingPages/ContactUsPage";
-import SignUpPage from "./pages/RealtorPages/SignUpPage";
+import SignUpPage from "./pages/LandingPages/SignUpPage";
 import PropertiesDetailsPage from "./pages/LandingPages/PropertiesDetailsPage";
 import BlogPage from "./pages/LandingPages/BlogPage";
 import FaqPage from "./pages/LandingPages/FaqPage";
@@ -25,6 +25,8 @@ import RealtorFilesPage from "./pages/RealtorPages/Files/RealtorFilesPage";
 import RealtorAddPropertiesPage from "./pages/RealtorPages/AddProperties/RealtorAddPropertiesPage";
 import RealtorDashboard from "./pages/RealtorPages/Dashboard/RealtorDashboard";
 import RealtorAllPropertiesPage from "./pages/RealtorPages/AllPropertiesPage/RealtorAllPropertiesPage";
+import SignUp from "./Components/LandingPages/signup/SignUp";
+import SignInPage from "./pages/LandingPages/SignInPage";
 
 
 
@@ -55,6 +57,10 @@ function App() {
         <Route path="/Faq" element={<FaqPage />} />
         <Route path="/AmbassadorTeam" element={<AmbassadorTeamPage />} />
         <Route path="/InspectPage" element={<InspectPage />} />
+        <Route path="/SignUp" element={<SignUpPage/>} />
+        <Route path="/SingIn" element={<SignInPage/>} />
+
+
 
         <Route
           path="/admin"
