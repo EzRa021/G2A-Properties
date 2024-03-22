@@ -48,36 +48,36 @@ function App() {
     // <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Properties" element={<PropertiesPage />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/ContactUs" element={<ContactUsPage />} />
-        <Route path="/SignUp" element={<SignUpPage />} />
-        <Route path="/Propertiesdetails" element={<PropertiesDetailsPage />} />
-        <Route path="/Blog" element={<BlogPage />} />
-        <Route path="/Faq" element={<FaqPage />} />
-        <Route path="/AmbassadorTeam" element={<AmbassadorTeamPage />} />
-        <Route path="/InspectPage" element={<InspectPage />} />
-        <Route path="/SignUp" element={<SignUpPage/>} />
-        <Route path="/SingIn" element={<SignInPage/>} />
+        <Route path="Properties" element={<PropertiesPage />} />
+        <Route path="AboutUs" element={<AboutUs />} />
+        <Route path="ContactUs" element={<ContactUsPage />} />
+        <Route path="SignUp" element={<SignUpPage />} />
+        <Route path="Propertiesdetails" element={<PropertiesDetailsPage />} />
+        <Route path="Blog" element={<BlogPage />} />
+        <Route path="Faq" element={<FaqPage />} />
+        <Route path="AmbassadorTeam" element={<AmbassadorTeamPage />} />
+        <Route path="InspectPage" element={<InspectPage />} />
+        <Route path="SignUp" element={<SignUpPage/>} />
+        <Route path="SingIn" element={<SignInPage/>} />
 
 
 
         <Route
-          path="/admin"
+          path="admin"
           element={
 
             <Dashboard />
           }
         />
         <Route
-          path="/admin/files"
+          path="admin/files"
           element={
 
             <FilesPage />
           }
         />
         <Route
-          path="/admin/addproperties"
+          path="admin/addproperties"
           element={
 
             <AddPropertiesPage />
@@ -85,13 +85,13 @@ function App() {
           }
         />
         <Route
-          path="/admin/inspections"
+          path="admin/inspections"
           element={
             <InspectionsPage />
           }
         />
         <Route
-          path="/admin/addrealtor"
+          path="admin/addrealtor"
           element={
 
             <AddRealtorsPage />
@@ -99,14 +99,14 @@ function App() {
           }
         />
         <Route
-          path="/admin/allrealtors"
+          path="admin/allrealtors"
           element={
 
             <AllRealtorPage />
           }
         />
         <Route
-          path="/admin/allproperties"
+          path="admin/allproperties"
           element={
 
             <AllPropertiesPage />
@@ -114,32 +114,32 @@ function App() {
           }
         />
         <Route
-          path="/admin/realtor"
+          path="admin/realtor"
           element={
             <PageTitle title="Realtor" />
 
           }
         />
         <Route
-          path="/realtor"
+          path="realtor"
           element={
             <RealtorDashboard />
           }
         />
         <Route
-          path="/realtor/files"
+          path="realtor/files"
           element={
             <RealtorFilesPage />
           }
         />
         <Route
-          path="/realtor/addproperties"
+          path="realtor/addproperties"
           element={
             <RealtorAddPropertiesPage />
           }
         />
         <Route
-          path="/realtor/allproperties"
+          path="realtor/allproperties"
           element={
             <RealtorAllPropertiesPage />
           }
