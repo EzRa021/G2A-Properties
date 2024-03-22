@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
+import { Navigate, Route, Routes, useLocation } from "react-router-dom";
 import { useEffect, useState } from 'react';
 import './App.css'
 import PropertiesPage from './pages/LandingPages/PropertiesPage'
@@ -47,7 +47,8 @@ function App() {
   ) : (
     // <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+       <Route index element={<Navigate replace to="Home" />} />
+        <Route path="Home" element={<Home />} />
         <Route path="Properties" element={<PropertiesPage />} />
         <Route path="AboutUs" element={<AboutUs />} />
         <Route path="ContactUs" element={<ContactUsPage />} />
