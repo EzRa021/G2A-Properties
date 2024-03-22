@@ -94,7 +94,6 @@ const HomeContent = () => {
                     <div className=" lg:col-span-2 col-span-1 w-full">
                         <img src="/image4.png" className="mt-5 w-full h-full object-cover" alt="" srcset="" />
                     </div>
-
                 </div>
             </div>
             <div className=" lg:m-[4rem] m-[15px] mt-[3rem] lg:mt-[9rem] ">
